@@ -1,0 +1,88 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{marvosym}
+\usepackage{fontspec}
+\usepackage{xunicode,xltxtra,url,parskip}
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{fullpage}
+\usepackage{titlesec}
+
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+	Path = /usr/share/fonts/Fontin/,
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin-Regular.otf}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\begin{document}
+
+\pagestyle{empty}
+\font\fb=''[cmr10]''
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Jérémy \textsc{Rabasco}
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Personal Data}
+
+\begin{tabular}{rl}
+	\textsc{Current Occupation:} & Master Thesis at EPFL\\
+	\textsc{Place and Date of Birth:} & Sierre, Switzerland | 17 September 1993 \\
+	\textsc{Address:}   & Maison Rouge 21, 3960 Sierre \\
+	\textsc{Phone:}     & +41 77 408 41 85\\
+	\textsc{email:}     & \href{mailto:rabasco.jeremy@gmail.com}{rabasco.jeremy@gmail.com}
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}	
+	\textsc{Up to date} & Master of Science in \textsc{Computer Science} (expected to gratuate end of February 2017)\\
+	& \textbf{Ecole Polytechnique Fédérale de Lausanne}, Switzerland\\
+	&\normalsize \textsc{Current GPA}: 5.51/6\\\\
+	\textsc{July} 2014 & Bachelor of Science in \textsc{Computer Science}\\
+	& \textbf{Ecole Polytechnique Fédérale de Lausanne}, Switzerland\\\\
+	\textsc{June 2011} & Swiss Federal Maturity\\
+	&\textbf{Lycée-Collège de la Planta}, Stion, Switzerland
+\end{tabular}
+
+%Section: Work Experience 
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+	\emph{Current} & Trader at \textsc{Enoi} s.p.a., Milan \\\textsc{Jan 2009}&\emph{Physical Natural Gas Trading}\\&\footnotesize{Provided analysis of spreads, in particular time and location spreads, with emphasis on trading opportunities on the curve, also taking into account the availability of storage facilities. Became familiar with logistic implications of physical gas trading and developed knowledge of continental virtual hubs for gas exchange.}\\\multicolumn{2}{c}{} \\
+	\textsc{Jul-Oct 2008} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\&\emph{Commodities Structured Trading}\\&\footnotesize{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (\textit{ags, oils, precious} and \textit{base metals}), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.}\\\multicolumn{2}{c}{} \\
+	\textsc{Summer 2007} & Summer Intern at \textsc{Lehman Brothers}, \emph{Capital Markets}\\&\footnotesize{Received pre-placed offer from the Exotics Trading Desk as a result of very positive review. Rated ``\emph{truly distinctive}'' for Analytical Skills and Teamwork.}
+\end{tabular}
+
+%Section: Languages
+\section{Languages}
+\begin{tabular}{rl}
+	\textsc{French:}&Native Language\\
+	\textsc{English:}&Certified C1 level of the CEFRL\\
+	\textsc{German:}&Basic knowledge
+\end{tabular}
+
+\section{Computer Skills}
+\begin{tabular}{rl}
+	Basic Knowledge:& \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[Path = /usr/share/fonts/Fontin/,SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+	Intermediate Knowledge:& \textsc{vba}, Excel, Word, PowerPoint\\
+\end{tabular}
+
+\section{Interests and Activities}
+Technology, Open-Source, Programming\\
+Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
+Football, Travelling
+
+\end{document}
