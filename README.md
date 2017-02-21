@@ -1,6 +1,8 @@
 # CV
 
-Thi is my resume. It is based on a template found online.
+This is my resume. It is based on a template found online.
+
+This is under construction.
 
 ## Requirements
 1. XeLaTeX
