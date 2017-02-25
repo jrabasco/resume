@@ -1,10 +1,8 @@
-all: clean build view
+all: clean build
 
 clean:
 	rm -f *.aux *.log *.out *.pdf
 
 build:
-	xelatex cv.tex
+	xelatex resume.tex
 
-view:
-	zathura cv.pdf

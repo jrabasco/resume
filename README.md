@@ -1,5 +1,5 @@
-# CV
-
+# Resume
+ 
 This is my resume. It is based on a template found online.
 
 ## Requirements
