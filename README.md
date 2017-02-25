@@ -10,5 +10,5 @@ This is my resume. It is based on a template found online.
 ## Build pdf 
 
 ```
-$ make build
+$ make
 ```
