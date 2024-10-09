@@ -15,11 +15,11 @@
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[
 	Path = /usr/share/fonts/Fontin/,
-SmallCapsFont = Fontin-SmallCaps.otf,
-BoldFont = Fontin-Bold.otf,
-ItalicFont = Fontin-Italic.otf
+SmallCapsFont = Fontin-SmallCaps.ttf,
+BoldFont = Fontin-Bold.ttf,
+ItalicFont = Fontin-Italic.ttf
 ]
-{Fontin-Regular.otf}
+{Fontin-Regular.ttf}
 
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{3pt}{3pt}
@@ -39,11 +39,34 @@ ItalicFont = Fontin-Italic.otf
 \section{Personal Data}
 
 \begin{tabular}{rl}
-	\textsc{Current Occupation:} & Software engineer at Bloomberg L.P.\\
+	\textsc{Current Occupation:} & Software Engineer Team Lead at Bloomberg L.P.\\
 	\textsc{Place and Date of Birth:} & Sierre, Switzerland | 17 September 1993 \\
-	\textsc{Address:}   & Flat 67, Peregrine House, Hall Street, EC1V 7PR, London, United Kingdom \\
+	\textsc{Address:}   & Flat 502, Wharfside Point South, 4 Preston's Road, E14 9EL, London, UK \\
 	\textsc{Phone:}     & +44 7570 849463\\
-	\textsc{email:}     & \href{mailto:rabasco.jeremy@gmail.com}{rabasco.jeremy@gmail.com}
+	\textsc{email:}     & \href{mailto:contact@jrabasco.me}{contact@jrabasco.me}
+\end{tabular}
+
+%Section: Work Experience
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+	\emph{Current} & \large{Software Engineer Team Lead at Bloomberg L.P., London} \\
+	\textsc{Jul 2021 - Now}&\footnotesize{Team lead for the Service Discovery team. Leading technical discussions, validating design and ensuring the team can deliver a safe and stable product.}\\
+	&\footnotesize{Technologies: Golang, Python, Javascript, C++, CoreDNS, Consul}\\\multicolumn{2}{c}{} \\
+	\emph{Current} & \large{Software Engineer at Bloomberg L.P., London} \\
+	\textsc{Feb 2017 - Jul 2021}&\footnotesize{Working on a Service Discovery system. Implementing and maintaining a regsitry of databases, message brokers, caches, http services etc... That other developer can use to find and advertise anything their application might need.}\\
+	&\footnotesize{Technologies: Golang, Python, Javascript, C++, CoreDNS, Consul}\\\multicolumn{2}{c}{} \\
+	\textsc{Mar 2017 - Feb 2019}&\footnotesize{Maintaining and developing the data acquisition process and research website of Bloomberg's New Energy Finance division. It involves a tight collaboration with the business and product owner as well as a lot of well thought engineering.}\\
+	&\footnotesize{Technologies: PHP, JavaScript, HTML, CSS, Python and C++}\\\multicolumn{2}{c}{} \\
+	& \large{Software Engineer Intern at Bloomberg L.P., London} \\
+	\textsc{Feb 2016 - Sep 2016}&\footnotesize{Development and maintenance of the research website. I helped in the redesign of the data acquisition procedure.}\\
+	&\footnotesize{Technologies: PHP, JavaScript, HTML, CSS, Python and C++}\\\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\section{Technologies}
+\begin{tabular}{ll}
+	Programming:& Golang, Python, C/C++, Java, Ruby, Shell\\
+	OSS:& Consul, Serf, Raft, CoreDNS \\
+	Tools:& Docker, Jenkins, Ansible, Chef, Openstack
 \end{tabular}
 
 %Section: Education
@@ -58,49 +81,13 @@ ItalicFont = Fontin-Italic.otf
 	&\textbf{Lycée-Collège de la Planta}, Sion, Switzerland
 \end{tabular}
 
-%Section: Work Experience 
-\section{Work Experience}
-\begin{tabular}{r|p{11cm}}
-	\emph{Current} & \large{Software engineer at Bloomberg L.P., London} \\
-	\textsc{From March 2017}&\footnotesize{Maintaining and developing the data acquisition process and research website of Bloomberg's New Energy Finance division. It involves a tight collaboration with the business and product owner as well as a lot of well thought engineering.}\\
-	&\footnotesize{Languages involved: PHP, JavaScript, HTML, CSS, Python and C++}\\\multicolumn{2}{c}{} \\
-	& \large{Software engineer at Bloomberg L.P., London} \\
-	\textsc{Feb 2016 - Sep 2016}&\footnotesize{Development and maintenance of the research website. I helped in the redesign of the data acquisition procedure.}\\
-	&\footnotesize{Languages involved: PHP, JavaScript, HTML, CSS, Python and C++}\\\multicolumn{2}{c}{} \\
-\end{tabular}
-
-%Section: Projects 
-\section{Projects}
-\begin{tabular}{r|p{11cm}}
-	\textsc{Sep 2016 - Feb 2017}&\emph{Reminisce.me} \\
-	\textsc{Feb 2015 - Jan 2016}&\footnotesize{Project about memorability of autobiographical data using information
-	available through the Facebook Graph API. It involves data analysis and gamification techniques.} \\
-	&\footnotesize{Languages involved: Scala, JavaScript, HTML, CSS and some Python}\\\multicolumn{2}{c}{} \\
-	\textsc{Sep 2014 - Dec 2014}&\emph{Elodie's Dream} \\
-	\textsc{Oct 2013 - Dec 2013}&\footnotesize{Complete implementation of a game in C++ with SFML for a friend's Birthday with a group of classmates. The game engine (includig basic physics) is custom made. An interesting learning experience.}\\\multicolumn{2}{c}{} \\
-\end{tabular}\\
-For more information and other projects see my Github account (https://github.com/jrabasco).
-
 %Section: Languages
 \section{Languages}
 \begin{tabular}{rl}
 	\textsc{French:}&Native Language\\
 	\textsc{English:}&Certified C1 level of the CEFRL\\
+	\textsc{Spanish:}&Basic knowledge\\
 	\textsc{German:}&Basic knowledge
-\end{tabular}
-
-\section{Computer Science Skills}
-\begin{tabular}{ll}
-	Programming:& Python (2 and 3), Scala, Java, PHP, C/C++, Shell\\
-	Frameworks:& AKKA and Spray (Scala), Spark (in Python, Scala and Java), Hadoop’s MapReduce, Symfony\\
-	Tools:& Docker, Jenkins, Travis, Codacy, HAProxy
-\end{tabular}
-
-\section{Associative Work}
-\begin{tabular}{r|p{11cm}}
-	&Helvetic Coding Contest\\
-	\textsc{November 2014 - Present}&Member of the organizing committee of the \emph{Helvetic Coding Contest}\\
-	&Involved leadership, autonomy and organizational skills.
 \end{tabular}
 
 \section{Soft Skills}
